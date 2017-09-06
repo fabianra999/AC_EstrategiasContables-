@@ -1,4 +1,7 @@
-/*anima vinculo a con class aAnimate con id dentro de body o etc*/
+/**
+ * Animacion Scroll vinculo
+ *	clase activa para efecto "aAnimate"
+ */
 function linkAnimate () {
 	$('body').on('click', 'a.aAnimate', function  () {
 		$('html, body').animate({
@@ -8,7 +11,10 @@ function linkAnimate () {
 	});
 }
 
-/*hacer scroll horizontal con btn rueda mouse solo en div class container-horizontal*/
+/**
+ * Scroll horizontal
+ *	rueda mouse solo en div class container-horizontal
+ */
 function scrollHorizontal () {
 	$('.container-horizontal').on('mousewheel', function(event, delta) {
 		this.scrollLeft -= (delta * 30);
@@ -16,6 +22,11 @@ function scrollHorizontal () {
 	});
 }
 
+
+/**
+ * Funcion slider
+ *
+ */
 function slideToggle(){
 
 // Set the effect type (slide slow fast swing linear)

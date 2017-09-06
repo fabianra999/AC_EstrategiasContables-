@@ -1,5 +1,3 @@
-'use strict';
-
 /**
 * mediaQueryJs
 * - Tamaño mediasQuery´s de bootstrap 4.
@@ -56,7 +54,7 @@
 })();
 
 /**
- *  mediaQueryJs b4 estrictas
+ *  mediaQueryJs b4 (estrictas)
  *
  **/
 function mediaQueryEsJs() {
