@@ -1,0 +1,31 @@
+/****** Base ******/
+@import 'base/variables';
+@import 'base/placeholder';
+@import 'base/mixin';
+@import 'base/funciones';
+@import 'base/iteraciones';
+@import 'base/condicionales';
+@import 'base/global';
+@import 'base/customBootstrap';
+
+
+/****** Modules ******/
+@import 'modules/header';
+@import 'modules/nav';
+@import 'modules/footer';
+
+
+/****** Theme ******/
+//@import 'theme/';
+
+
+/****** Layouts ******/
+@import 'layouts/home';
+
+
+/****** State ******/
+//@import 'state/';
+
+
+/****** Mobile ******/
+@import 'mobile/m-screen';

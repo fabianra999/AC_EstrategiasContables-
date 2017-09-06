@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "description": "web project",
+  "main": "view/components/head.php",
+  "directory": "app/components/",
+  "authors": [
+    "yeaa"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "jquery-ui": "^1.12.1",
+    "gsap": "^1.19.1",
+    "slick-carousel": "^1.6.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "font-awesome": "^4.7.0"
+  }
+}

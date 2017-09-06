@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules
+
+# Dependency directories dist
+dist
+bower_components
+
+!/.idea/

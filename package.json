@@ -1,0 +1,42 @@
+{
+  "name": "noBrowser",
+  "version": "0.1.0",
+  "description": "Quench",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "*",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "*",
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "*",
+    "gulp-cache": "*",
+    "gulp-concat": "*",
+    "gulp-filter": "^5.0.0",
+    "gulp-imagemin": "*",
+    "gulp-install": "*",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "main-bower-files": "^2.13.1"
+  },
+  "dependencies": {
+    "gulp-bower-files": "^0.2.7",
+    "gulp-clean": "^0.3.2",
+    "gulp-filter": "^5.0.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-typescript": "*",
+    "gulp-wiredep": "^1.2.0",
+    "typescript": "*"
+  }
+}
