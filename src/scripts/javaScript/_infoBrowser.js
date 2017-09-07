@@ -145,18 +145,19 @@ function viewportSize() {
  *  Llamados
  *
  ==============================================================================*/
-$(window).resize(function () {
+object.addEventListener("resize", () => {
     //detectBrowser();
     //mobileDetecting();
     //viewportSize();
 });
 
-(function () {
+(() => {
     //detectBrowser();
     // mobileDetecting();
     //viewportSize();
 
-    if ($('body').is('.mobile')) { //si tine la clase
+    if ($('body').is('.mobile')) {
+
     }
 
 })();

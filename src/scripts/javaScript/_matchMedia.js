@@ -89,6 +89,6 @@ function mediaQueryEsJs() {
  * Resize mediaQuery
  **/
 
-window.onresize = () => {
+object.addEventListener("resize", () => {
   //console.log('Hola Resize');
-};
+});
