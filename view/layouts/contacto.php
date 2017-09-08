@@ -26,18 +26,20 @@
                         <h2>Envíanos un mensaje
                         </h2>
                     </div>
-                    <form action="">
+                    <form action="/action_page.php" method="get">
                         <div class="row">
                             <div class="col-6">
-                                <input type="text" placeholder="Nombre">
-                                <input type="email" placeholder="Email">
-                                <input type="text" placeholder="Asunto">
+                                <input name="fName" type="text" placeholder="Nombre">
+                                <input name="fEmail" type="email" placeholder="Email">
+                                <input name="fAsunto" type="text" placeholder="Asunto">
                             </div>
                             <div class="col-6">
-                                <textarea placeholder="Mensaje"></texarea>
+                                <textarea name="fMensaje" placeholder="Mensaje"></textarea>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col-12">
-                                <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+                                <button type="button" value="Submit" class="btn btn-primary btn-sm">Enviar</button>
                             </div>
                         </div>
                     </form>
