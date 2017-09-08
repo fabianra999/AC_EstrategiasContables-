@@ -2,7 +2,6 @@
 // - tyene scout 
 // - Interpolacion: saca hijo del padre  @at-root p{color: $tomato_1;}
 
-
 //               Ejempl0:
 // $var: 2;
 // $company: youtube;
@@ -14,25 +13,26 @@
 //  }
 // }
 
-
 /* Varables Colores
 ===================================================*/
 
-//colores
-$rojo:       #932e30;
-$azul:       #2e8b9b;
-$verde:      #a3bd31;
-$naranja:    #d37c32;
-$amarillo:   #F29100;
+// Web
+$azul_1: #426489;
+$azul_2: #0e1b33;
+$azul_3: #1c3766;
+
+// Primarios
 $blanco:     #ffffff;
 $negro:      #000000;
 $gris:       #4c4c4c;
+$azul:       #03a9f4;
+$amarillo:   #ffeb3b;
 
-$whatsapp:   #65a445;
-$facebook:   #253a81;
-$instagram:  #38619f;
-$mail:       #2e8b9b;
-
+// Redes
+$whatsapp:  #65a445;
+$facebook:  #253a81;
+$instagram: #38619f;
+$mail:      #2e8b9b;
 
 /* Path Sass
 ===================================================*/

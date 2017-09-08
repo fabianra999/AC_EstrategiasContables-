@@ -5,10 +5,13 @@
 	<body>
 		<!--header-->
 		<?php include 'view/modules/header.php';?>
-		<!--footer-->
-		<?php include 'view/modules/footer.php';?>
-		<!--scripts-->
-		<?php include 'view/modules/scripts.php';?>
+
+        <?php include 'view/layouts/home.php';?>
+
+        <!--footer-->
+        <?php include 'view/modules/footer.php';?>
+        <!--scripts-->
+        <?php include 'view/modules/scripts.php';?>
 	</body>
 </html>
 

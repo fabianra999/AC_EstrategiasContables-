@@ -145,7 +145,7 @@ gulp.task('tipeScript', () => {
         .pipe(gulp.dest('dist/scripts/tipeScript/'))
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
-        .pipe(sourcemaps.write('maps'))
+        .pipe(sourcemaps.write('/'))
         .pipe(gulp.dest('dist/scripts/tipeScript/'))
         .pipe(browserSync.reload({stream: true}))
 });

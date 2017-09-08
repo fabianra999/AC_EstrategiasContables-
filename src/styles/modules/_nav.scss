@@ -1,6 +1,26 @@
-ul{
-	margin: 0; padding: 0;
-	li{
-		display: inline-block;
-	}
+/**
+  * Nav-bar
+ */
+
+nav {
+  background-color: $azul_2;
+  ul.navbar-nav {
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: center;
+    .nav-item {
+      display: inline-block;
+      list-style: none;
+      margin-left: 5rem;
+      a {
+        color: $blanco;
+        text-decoration: none;
+      }
+      &.dropdown {
+        .dropdown-item {
+          color: $azul_2;
+        }
+      }
+    }
+  }
 }

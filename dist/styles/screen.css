@@ -31,6 +31,12 @@
 ===================================================*/
 /* 2. colores
 ===================================================*/
+body {
+  background-color: #1c3766; }
+
+section[class^="web__"] .container {
+  background-color: #ffffff; }
+
 /*====== body ======*/
 *,
 *::after,
@@ -108,10 +114,10 @@ html {
   color: #4c4c4c; }
 
 .fc-azul {
-  color: #2e8b9b; }
+  color: #03a9f4; }
 
 .fc-am {
-  color: #F29100; }
+  color: #ffeb3b; }
 
 /*====== font weight ======*/
 .fw-xs {
@@ -202,11 +208,49 @@ mayor problema por fload superior.
     float: inherit; }
 
 /****** Modules ******/
-ul {
-  margin: 0;
-  padding: 0; }
-  ul li {
-    display: inline-block; }
+/* Fonts Blacksword*/
+@font-face {
+  font-family: 'Blacksword';
+  src: url("../../components/fonts/hinted-Blacksword.eot");
+  src: url("../../components/fonts/hinted-Blacksword.eot?#iefix") format("embedded-opentype"), url("../../components/fonts/hinted-Blacksword.woff2") format("woff2"), url("../../components/fonts/hinted-Blacksword.woff") format("woff"), url("../../components/fonts/hinted-Blacksword.ttf") format("truetype"), url("../../components/fonts/hinted-Blacksword.svg#Blacksword") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/**
+  * Header
+ */
+header {
+  background-color: #426489; }
+  header a {
+    text-align: right;
+    text-decoration: none; }
+    header a h1 {
+      padding: 2rem 3rem;
+      margin: 0;
+      font-family: 'Blacksword';
+      color: #ffffff;
+      font-size: 2.5rem; }
+      header a h1 span {
+        font-size: 1.5em; }
+
+/**
+  * Nav-bar
+ */
+nav {
+  background-color: #0e1b33; }
+  nav ul.navbar-nav {
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: center; }
+    nav ul.navbar-nav .nav-item {
+      display: inline-block;
+      list-style: none;
+      margin-left: 5rem; }
+      nav ul.navbar-nav .nav-item a {
+        color: #ffffff;
+        text-decoration: none; }
+      nav ul.navbar-nav .nav-item.dropdown .dropdown-item {
+        color: #0e1b33; }
 
 /****** Theme ******/
 /****** Layouts ******/

@@ -1,4 +1,11 @@
 // Global CSS goes here
+body{
+	background-color: $azul_3;
+}
+section[class^="web__"] .container{
+background-color: $blanco;
+}
+
 
 /*====== body ======*/
 *, 

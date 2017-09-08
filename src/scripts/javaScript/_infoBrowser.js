@@ -145,7 +145,7 @@ function viewportSize() {
  *  Llamados
  *
  ==============================================================================*/
-object.addEventListener("resize", () => {
+window.addEventListener("resize", function () { // hola mundo
     //detectBrowser();
     //mobileDetecting();
     //viewportSize();
