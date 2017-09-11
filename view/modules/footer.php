@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                 <div class="footer__header">
                     <div class="header__title">
                         <h3>Contáctanos</h3>
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                 <div class="footer__header">
                     <div class="header__title">
                         <h3>Síguenos</h3>
@@ -27,9 +27,9 @@
                 <div class="footer__body">
                     <div class="footer__body__redes">
                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/acestrategiascf"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                     </div>
                 </div>

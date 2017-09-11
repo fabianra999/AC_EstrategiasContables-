@@ -1,0 +1,55 @@
+.web__contacto {
+  min-height: 70vh;
+  .container {
+    background: none !important;
+  }
+
+  .contacto__title {
+    margin: 2rem 0;
+    h1 {
+      color: $blanco;
+      font-weight: 700;
+      line-height: 1.1em;
+      font-size: 30px;
+    }
+  }
+
+  .warp__contacto {
+    @include bp(sm){
+      margin-bottom: 2rem;
+    }
+    .container {
+      padding: 1rem;
+      background-color: $blanco !important;
+      border-radius: 5px;
+    }
+
+    .col1__title, .col2__title{
+      h2 {
+        line-height: 1.3em;
+        color: #484D56;
+        letter-spacing: normal;
+        font-size: 22px;
+        font-family: Serif;
+      }
+    }
+    .col1__copy{
+      p{
+        color: #8892A1;
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 14px;
+      }
+    }
+
+    input, textarea {
+      background-color: rgba(236, 240, 241, 1);
+      color: #8892A1;
+      margin: 0 0 5px;
+      padding: 7px;
+      width: 100%;
+      border: none;
+      font-size: 12px;
+    }
+  }
+}

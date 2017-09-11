@@ -4,14 +4,21 @@
 
 nav {
   background-color: $azul_2;
+  @include bp(sm){
+    min-height: 55px;
+  }
   ul.navbar-nav {
-    margin: 0;
+    margin: 0 auto;
     padding: 0.5rem 0;
     text-align: center;
+    font-family: Serif;
     .nav-item {
       display: inline-block;
       list-style: none;
       margin-left: 5rem;
+      @include bp(sm) {
+        margin-left: initial;
+      }
       a {
         color: $blanco;
         text-decoration: none;

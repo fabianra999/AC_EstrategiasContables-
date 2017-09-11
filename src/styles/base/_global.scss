@@ -1,3 +1,15 @@
+/**
+ *	btn
+ */
+.btn__web{
+	padding: 0.5rem 1.5rem;
+	transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+	background: rgba(56, 127, 187, 1) url(http://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/shiny2button_bg.png) center top repeat-x;
+	border: solid rgba(255, 255, 255, 1) 0px;
+	align-items: center;
+	font-size: rem(12px);
+}
+
 // Global CSS goes here
 body{
 	background-color: $azul_3;

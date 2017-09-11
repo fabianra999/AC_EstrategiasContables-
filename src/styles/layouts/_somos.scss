@@ -1,0 +1,69 @@
+.web__quienesSomos {
+  .container {
+    background: none !important;
+  }
+
+  .item__quienesSomos, .item__quienesSomos, .warp__biografia {
+    background-color: $blanco;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1.5rem 1rem;
+    .quienesSomos__title, .biografia__title {
+      padding: 1rem 0;
+      h2 {
+        text-align: center;
+        font-size: 40px;
+        color: #484D56;
+        font-family: sans-serif;
+      }
+    }
+    .quienesSomos__body {
+      text-align: justify;
+      font-size: 23px;
+      color: #8892A1;
+      @include bp (sm){
+        font-size: 1rem;
+      }
+    }
+    .quienesSomos__img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .warp__biografia {
+    width: 80%;
+    margin: 1rem auto;
+    @include bp (sm){
+      width: 100%;
+    }
+    .biografia__title {
+      h2 {
+        // text-align: center;
+      }
+    }
+    .biografia__copy {
+      padding: 1rem 1.5rem;
+      text-align: justify;
+      font-size: 23px;
+      color: #8892A1;
+      @include bp(sm){
+        font-size: 1rem;
+      }
+    }
+    .firma {
+      h3 {
+        margin-right: 10px;
+        text-align: right;
+        font-family: Blacksword;
+        font-size: 2rem;
+      }
+    }
+  }
+  hr {
+    border-color: white;
+  }
+
+}

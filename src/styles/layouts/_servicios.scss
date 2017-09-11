@@ -1,0 +1,42 @@
+.web__servicios {
+  background-color: #285e88;
+  .container {
+    background: none !important;
+  }
+
+  .servicios__title {
+    margin: 2rem 0;
+    h1 {
+      color: $blanco;
+      font-weight: bold;
+      line-height: 1.1em;
+      font-size: 30px;
+    }
+  }
+
+  .servicios__item {
+    width: 80%;
+    margin: 1rem auto;
+    .item__img{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .item__title {
+      margin-top: 1rem;
+      h2 {
+        color: $blanco;
+        font-size: 18px;
+        line-height: 1.3em;
+      }
+    }
+    .item__copy {
+      p {
+        color: $blanco;
+        text-align: justify;
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -17,14 +17,17 @@
             <li class="nav-item">
                 <a class="nav-link" href="quienes-somos.php">QUIÉNES SOMOS</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+                <a class="nav-link" href="servicios.php">SERVICIOS</a>
+            </li>
+           <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="servicios.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     SERVICIOS
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="servicios.php">SERVICIOS CONTABLES</a>
                 </div>
-            </li>
+            </li>-->
             <li class="nav-item">
                 <a class="nav-link" href="contacto.php">CONTACTO</a>
             </li>

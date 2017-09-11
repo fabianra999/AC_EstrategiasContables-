@@ -6,9 +6,11 @@
                     <h1>SERVICIOS</h1>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                 <div class="servicios__item">
-                    <div class="item__img"></div>
+                    <div class="item__img">
+                        <img src="dist/images/components/servis_1.webp" alt="">
+                    </div>
                     <div class="item__title">
                         <h2>SERVICIOS CONTABLES </h2>
                     </div>
@@ -21,13 +23,15 @@
                         </p>
                     </div>
                     <div class="item__btn">
-                        MÁS
+                        <a href="serviciosContables.php" type="button" class="btn btn-primary btn-sm btn__web">MÁS</a>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                 <div class="servicios__item">
-                    <div class="item__img"></div>
+                    <div class="item__img">
+                        <img src="dist/images/components/servis_2.webp" alt="">
+                    </div>
                     <div class="item__title">
                         <h2>ASESORIAS TRIBUTARIA</h2>
                     </div>
@@ -40,9 +44,11 @@
                     <div class="item__btn"></div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="servicios__item">
-                    <div class="item__img"></div>
+                    <div class="item__img">
+                        <img src="dist/images/components/servis_3.webp" alt="">
+                    </div>
                     <div class="item__title">
                         <h2>REVISORIA FISCAL</h2>
                     </div>
@@ -56,9 +62,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="servicios__item">
-                    <div class="item__img"></div>
+                    <div class="item__img">
+                        <img src="dist/images/components/servis_4.webp" alt="">
+                    </div>
                     <div class="item__title">
                         <h2>ASESORIA FINANCIERA
                         </h2>
@@ -71,9 +79,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="servicios__item">
-                    <div class="item__img"></div>
+                    <div class="item__img">
+                        <img src="dist/images/components/servis_5.webp" alt="">
+                    </div>
                     <div class="item__title">
                         <h2>AUDITORIA EXTERNA
                         </h2>
@@ -90,8 +100,8 @@
             </div>
             <div class="col-12">
                 <div class="servicios__item">
-                    <div class="item__btn">
-                        AGENDA UNA CONSULTA
+                    <div class="item__btn ta-c">
+                        <a href="contacto.php" type="button" class="btn btn-primary btn-sm btn__web">AGENDA UNA CONSULTA</a>
                     </div>
                 </div>
             </div>

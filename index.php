@@ -2,12 +2,11 @@
 <html>
 	<!--head-->
 	<?php include 'view/modules/head.php';?>
-	<body>
+    <body>
 		<!--header-->
 		<?php include 'view/modules/header.php';?>
 
         <?php include 'view/layouts/home.php';?>
-
         <!--footer-->
         <?php include 'view/modules/footer.php';?>
         <!--scripts-->

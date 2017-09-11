@@ -8,6 +8,8 @@
 @import 'base/global';
 @import 'base/customBootstrap';
 
+/****** Mobile ******/
+@import 'mobile/m-screen';
 
 /****** Modules ******/
 @import 'modules/header';
@@ -21,11 +23,13 @@
 
 /****** Layouts ******/
 @import 'layouts/home';
+@import 'layouts/somos';
+@import 'layouts/servicios';
+@import 'layouts/contacto';
+@import 'layouts/servicio';
 
 
 /****** State ******/
 //@import 'state/';
 
 
-/****** Mobile ******/
-@import 'mobile/m-screen';

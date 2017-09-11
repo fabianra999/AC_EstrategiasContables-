@@ -2,11 +2,17 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <img src="dist/images/components/home_1.webp" alt="">
+                <div class="homo__img">
+                    <img src="dist/images/components/home_1.webp" alt="">
+                    <br>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4">
+    </div>
+    <br>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>SERVICIOS</h2>
@@ -21,11 +27,11 @@
                         </ul>
                     </div>
                     <div class="item__footer">
-                        <button type="button" class="btn btn-primary btn-sm">MÁS</button>
+                        <a href="servicios.php" type="button" class="btn btn-primary btn-sm btn__web">MÁS</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>Misión y Visión</h2>
@@ -40,11 +46,11 @@
                             alcanzando el crecimiento continuo de su empresa y la nuestra.</p>
                     </div>
                     <div class="item__footer">
-                        <button type="button" class="btn btn-primary btn-sm">MÁS</button>
+                        <a href="quienes-somos.php" type="button" class="btn btn-primary btn-sm btn__web">MÁS</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>Especialistas en Impuestos</h2>
@@ -58,30 +64,36 @@
                             orden Nacional y Municipal, maximizando y optimizando la utilización de los recursos.r</p>
                     </div>
                     <div class="item__footer">
-                        <button type="button" class="btn btn-primary btn-sm">MÁS</button>
-
+                        <a href="servicios.php" type="button" class="btn btn-primary btn-sm btn__web">MÁS</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>Noticias y Publicaciones</h2>
                     </div>
-                    <div class="item__img">
-                        <img src="dist/images/components/inpuestos.webp" alt="">
-                    </div>
-                    <div class="item__copy">
-                        <p>Encuentre aquí las ultimas noticias, actualizaciones y herramientas contables, tributarias y
-                            financieras </p>
-                    </div>
-                    <div class="item__footer">
-                        <button type="button" class="btn btn-primary btn-sm">MÁS</button>
+                    <div class="row">
+                        <div class="col-12 col-sm-5">
+                            <div class="item__img">
+                                <img src="dist/images/components/home_noticias.00_jpg_srz" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-7">
+                            <div class="item__copy">
+                                <p>Encuentre aquí las ultimas noticias, actualizaciones y herramientas contables,
+                                    tributarias y
+                                    financieras </p>
+                            </div>
+                            <div class="item__footer">
+                                <a href="servicios.php" type="button" class="btn btn-primary btn-sm btn__web">MÁS</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="item">
+            <div class="col-12 col-sm-4">
+                <div class="item item--testimony">
                     <div class="item__title">
                         <h2>Testimonios</h2>
                     </div>

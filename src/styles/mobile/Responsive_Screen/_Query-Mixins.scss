@@ -1,16 +1,16 @@
 /**
-* Responsive
-* Adjustment from a maximum size
-* Mixin
-*
-* Mode of use :
-* .sidebar {
-*  width: 33.33%;
-*    @include bp (sm) {
-*      width: 100%;
-*    }
-* }
-*/
+ * Responsive
+ * Adjustment from a maximum size
+ * Mixin
+ *
+ * Mode of use :
+ * .sidebar {
+ *  width: 33.33%;
+ *    @include bp (sm) {
+ *      width: 100%;
+ *    }
+ * }
+ */
 
 @mixin bp($point) {
   $bp__xs: "(max-width: 576px)";
