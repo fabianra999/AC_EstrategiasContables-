@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="homo__img">
-                    <img src="dist/images/components/home_1.webp" alt="">
+                    <img src="dist/images/components/home_1.png" alt="">
                     <br>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                         <h2>Misión y Visión</h2>
                     </div>
                     <div class="item__img">
-                        <img src="dist/images/components/misionVision.webp" alt="">
+                        <img src="dist/images/components/misionVision.png" alt="">
                     </div>
                     <div class="item__copy">
                         <p>Contribuimos con el desarrollo y fortalecimiento de nuestros clientes, prestando un servicio
@@ -56,7 +56,7 @@
                         <h2>Especialistas en Impuestos</h2>
                     </div>
                     <div class="item__img">
-                        <img src="dist/images/components/inpuestos.webp" alt="">
+                        <img src="dist/images/components/inpuestos.png" alt="">
                     </div>
                     <div class="item__copy">
                         <p>Analizar y establecer controles que permitan el cumplimiento de las Normatividad Tributaria

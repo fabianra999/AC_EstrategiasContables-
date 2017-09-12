@@ -16,7 +16,7 @@
             <div class="col-12 col-sm-6">
                 <div class="item__quienesSomos">
                     <div class="quienesSomos__img">
-                        <img src="dist/images/components/vision.webp" alt="">
+                        <img src="dist/images/components/vision.png" alt="">
                     </div>
                     <div class="quienesSomos__title">
                         <h2>Visión</h2>
