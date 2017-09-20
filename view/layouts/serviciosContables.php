@@ -8,7 +8,7 @@
                     </div>
                 </div>
                 <div class="servicio__img">
-                    <img src="dist/images/components/servicio__contables.webp" alt="">
+                    <img src="dist/images/components/servicio__contables.png" alt="">
                 </div>
                 <div class="servicio__body">
                     <div class="row">

@@ -6,7 +6,8 @@
                     <h1>SERVICIOS</h1>
                 </div>
             </div>
-            <div class="col-12 col-sm-6">
+            <div id="triggerServicios" class="spacer s1"></div>
+            <div class=" col-12 col-sm-6">
                 <div class="servicios__item">
                     <div class="item__img">
                         <img src="dist/images/components/servis_1.png" alt="">
@@ -27,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6">
+            <div class=" col-12 col-sm-6">
                 <div class="servicios__item">
                     <div class="item__img">
                         <img src="dist/images/components/servis_2.png" alt="">
@@ -44,7 +45,7 @@
                     <div class="item__btn"></div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="animateServicios col-12 col-sm-4">
                 <div class="servicios__item">
                     <div class="item__img">
                         <img src="dist/images/components/servis_3.png" alt="">
@@ -62,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="animateServicios col-12 col-sm-4">
                 <div class="servicios__item">
                     <div class="item__img">
                         <img src="dist/images/components/servis_4.png" alt="">
@@ -79,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="animateServicios col-12 col-sm-4">
                 <div class="servicios__item">
                     <div class="item__img">
                         <img src="dist/images/components/servis_5.png" alt="">

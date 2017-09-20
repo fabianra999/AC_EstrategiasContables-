@@ -17,16 +17,16 @@
                             <h2>Dirección</h2>
                         </div>
                         <div class="col1__copy">
-                            <p>Carrera 54 No. 135 - 35
-                                ﻿<br>
-                                ﻿ gerencia@acestrategiascf.com</p>
+                            <p>Carrera 54 No. 135 - 35</p>
+                            <a href="mailto:gerencia@acestrategiascf.com"><p>gerencia@acestrategiascf.com</p></a>
                         </div>
                         <div class="col1__title">
                             <h2>Teléfono</h2>
                         </div>
                         <div class="col1__copy">
-                            <p>313-261-7300
-                            </p>
+                            <a href="tel:573132617300">
+                                <p>313-261-7300</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -41,10 +41,11 @@
                                 <div class="col-12 col-sm-6">
                                     <input name="fName" type="text" placeholder="Nombre" required>
                                     <input name="fEmail" type="email" placeholder="Email" required>
+                                    <input name="fTel" type="number" placeholder="Numero Telefonico" required>
                                     <input name="fAsunto" type="text" placeholder="Asunto" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <textarea rows="5" name="fMensaje" placeholder="Mensaje" required></textarea>
+                                    <textarea rows="7" name="fMensaje" placeholder="Mensaje" required></textarea>
                                 </div>
                             </div>
                             <div class="row">

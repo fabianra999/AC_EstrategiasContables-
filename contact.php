@@ -5,9 +5,10 @@
  *  $name,$email,$email,$asunto,$mensage : campos formulario;
  *  $date : Fecha de envio;
  */
-$destino = 'fabianra999@gmail.com';
+$destino = 'gerencia@acestrategiascf.com';
 $name = $_POST['fName'];
 $email = $_POST['fEmail'];
+$tel = $_POST['fTel'];
 $asunto = $_POST['fAsunto'];
 $mensage = $_POST['fMensaje'];
 $date = date('d/m/Y', time());
@@ -24,6 +25,7 @@ $header .= "Content-Type: text/plain";
  * Body Email
  */
 $mensaje = "Este mensaje fue enviado por " . $name . ".\r\n";
+$mensaje .= "Numero telefonico: " . $tel . ".\r\n";
 $mensaje .= "Su e-mail es: " . $email . ".\r\n";
 $mensaje .= "Enviado el: " . $date . ".\r\n";
 $mensaje .= "Su asunto: " . $asunto . ".\r\n";
@@ -32,7 +34,7 @@ $mensaje .= "Mensaje: " . $mensage . ".\r\n";
 /**
  * Asunto Email
  */
-$asuntoMail = 'Contacto sitio Web | ' . $name;
+$asuntoMail = 'Contacto sitio Web ACestrategiascf | ' . $name;
 
 /**
  * Envio Email

@@ -524,6 +524,8 @@ footer {
     letter-spacing: normal;
     font-size: 22px;
     font-family: Serif; }
+  .web__contacto .warp__contacto .col1__copy a {
+    text-decoration: none; }
   .web__contacto .warp__contacto .col1__copy p {
     color: #8892A1;
     line-height: normal;

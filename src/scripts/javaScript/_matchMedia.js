@@ -16,7 +16,7 @@
   ];
 
 
-  // Dondicional por mediaQuery
+  // Condicional por mediaQuery
   const changeSize = function (){
     if (mediaQuery[0].matches){
       //console.log('1 sm');

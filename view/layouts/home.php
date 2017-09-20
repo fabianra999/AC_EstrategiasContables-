@@ -12,7 +12,8 @@
     <br>
     <div class="container">
         <div class="row justify-content-md-center">
-            <div class="col-12 col-sm-4">
+            <div id="triggerHome" class="spacer s1"></div>
+            <div class="animateHome col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>SERVICIOS</h2>
@@ -31,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="animateHome col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>Misión y Visión</h2>
@@ -50,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="animateHome col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>Especialistas en Impuestos</h2>
@@ -68,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="animateHome col-12 col-sm-4">
                 <div class="item">
                     <div class="item__title">
                         <h2>Noticias y Publicaciones</h2>
@@ -92,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="animateHome col-12 col-sm-4">
                 <div class="item item--testimony">
                     <div class="item__title">
                         <h2>Testimonios</h2>

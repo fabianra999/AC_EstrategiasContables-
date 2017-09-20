@@ -1,3 +1,49 @@
+function animateWeb(item, trigger) {
+    var durationFn = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 300;
+    var offsetFn = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
+
+    // init controller
+    var controller = new ScrollMagic.Controller();
+    var animateHome = item;
+
+    //var tween = TweenMax.staggerFromTo(animateHome, 2, {left: 700}, {left: 0, ease: Back.easeOut}, 0.15);
+
+    var tween = new TimelineLite().staggerFrom(animateHome, 0.5, { opacity: 0, scale: 0 }, 0.3).staggerTo(animateHome, 0.3, { scale: 1 }, 0.1, 0.7);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({ triggerElement: trigger, duration: durationFn, offset: offsetFn }).setTween(tween)
+    //.addIndicators({name: "staggering"}) // add indicators (requires plugin)
+    .addTo(controller);
+}
+
+function animateHome() {}
+
+(function () {
+    if (window.matchMedia("(min-width: 769px) and (max-width: 1920px)").matches) {
+
+        /**
+         * home
+         *  items: animateHome;
+         *  triggerHome: #triggerHome
+         */
+        var _animateHome = $('.web__home .animateHome');
+        var triggerHome = "#triggerHome";
+        var durationHome = 200;
+        var offsetHome = 0;
+        animateWeb(_animateHome, triggerHome, durationHome, offsetHome);
+
+        /**
+         * servicios
+         *  items: animateServicios;
+         *  triggerServicios: #triggerServicios
+         */
+        var animateServicios = $('.web__servicios .animateServicios');
+        var triggerServicios = "#triggerServicios";
+        var durationServicios = 400;
+        var offsetServicios = 200;
+        animateWeb(animateServicios, triggerServicios, durationServicios, offsetServicios);
+    }
+})();
 /**
  * Animacion Scroll vinculo
  *    clase activa para efecto "aAnimate"
@@ -200,7 +246,7 @@ window.addEventListener("resize", function () {// hola mundo
     // mediaQuery -> Tamaños
     var mediaQuery = [matchMedia('(max-width: 576px)'), matchMedia('(min-width: 577px) and (max-width: 768px)'), matchMedia('(min-width: 769px) and (max-width: 992px)'), matchMedia('(min-width: 993px)')];
 
-    // Dondicional por mediaQuery
+    // Condicional por mediaQuery
     var changeSize = function changeSize() {
         if (mediaQuery[0].matches) {
             //console.log('1 sm');

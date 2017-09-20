@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow:
+Allow: /www.acestrategiascf.com/index.php
+Allow: /www.acestrategiascf.com/contacto.php
+Allow: /www.acestrategiascf.com/quienes-somos.php
+Allow: /www.acestrategiascf.com/servicios.php
+Allow: /www.acestrategiascf.com/serviciosContables.php

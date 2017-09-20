@@ -27,9 +27,9 @@
                 <div class="footer__body">
                     <div class="footer__body__redes">
                     <ul>
-                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/Acestrategiascf/"><i class="fa fa-facebook"></i></a></li>
                         <li><a target="_blank" href="https://twitter.com/acestrategiascf"><i class="fa fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/andrés-cantor-a2674928/"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                     </div>
                 </div>
