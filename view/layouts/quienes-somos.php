@@ -16,7 +16,7 @@
             <div class="col-12 col-sm-6">
                 <div class="item__quienesSomos">
                     <div class="quienesSomos__img">
-                        <img src="dist/images/components/vision.png" alt="">
+                        <img src="dist/images/components/auditoria_externa.png" alt="">
                     </div>
                     <div class="quienesSomos__title">
                         <h2>Visión</h2>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="col-12 col-sm-6 align-self-center">
                             <div class="biografia__img ta-c">
-                                <img src="dist/images/components/quien.png" alt="">
+                                <img src="dist/images/components/Asesoria_Tributaria .png" alt="">
                             </div>
                         </div>
                         <div class="col-12">

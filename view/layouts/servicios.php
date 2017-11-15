@@ -10,7 +10,7 @@
             <div class=" col-12 col-sm-6">
                 <div class="servicios__item">
                     <div class="item__img">
-                        <img src="dist/images/components/servis_1.png" alt="">
+                        <img src="dist/images/components/servicios/asesoria_contables.png" alt="">
                     </div>
                     <div class="item__title">
                         <h2>SERVICIOS CONTABLES </h2>
@@ -31,7 +31,7 @@
             <div class=" col-12 col-sm-6">
                 <div class="servicios__item">
                     <div class="item__img">
-                        <img src="dist/images/components/servis_2.png" alt="">
+                        <img src="dist/images/components/servicios/asesorias_tributaria.png" alt="">
                     </div>
                     <div class="item__title">
                         <h2>ASESORIAS TRIBUTARIA</h2>
@@ -48,7 +48,7 @@
             <div class="animateServicios col-12 col-sm-4">
                 <div class="servicios__item">
                     <div class="item__img">
-                        <img src="dist/images/components/servis_3.png" alt="">
+                        <img src="dist/images/components/servicios/revisoria_fiscal.png" alt="">
                     </div>
                     <div class="item__title">
                         <h2>REVISORIA FISCAL</h2>
@@ -66,7 +66,7 @@
             <div class="animateServicios col-12 col-sm-4">
                 <div class="servicios__item">
                     <div class="item__img">
-                        <img src="dist/images/components/servis_4.png" alt="">
+                        <img src="dist/images/components/servicios/asesoria_financiera.png" alt="">
                     </div>
                     <div class="item__title">
                         <h2>ASESORIA FINANCIERA
@@ -83,7 +83,7 @@
             <div class="animateServicios col-12 col-sm-4">
                 <div class="servicios__item">
                     <div class="item__img">
-                        <img src="dist/images/components/servis_5.png" alt="">
+                        <img src="dist/images/components/servicios/auditoria_externa.png" alt="">
                     </div>
                     <div class="item__title">
                         <h2>AUDITORIA EXTERNA
